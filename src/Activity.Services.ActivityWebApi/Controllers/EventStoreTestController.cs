@@ -14,7 +14,7 @@ namespace Activity.Services.ActivityWebApi.Controllers
     {
         public IActionResult GetEvents()
         {
-            var conn = EventStoreConnection.Create(new Uri("tcp://admin:changeit@127.0.0.1:1113"),
+            var conn = EventStoreConnection.Create(new Uri("tcp://admin:changeit@host.docker.internal:1113"),
                 "InputFromFileConsoleApp");
              conn.ConnectAsync().Wait();
             conn.AppendToStreamAsync("TestStreamName", ExpectedVersion.Any,new EventData(Guid.NewGuid(), "TestEvent",true,null,null)).Wait();

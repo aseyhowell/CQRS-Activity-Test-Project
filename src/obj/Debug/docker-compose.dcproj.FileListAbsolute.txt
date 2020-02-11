@@ -10,3 +10,7 @@ C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Proje
 C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\bin\Debug\Newtonsoft.Json.dll
 C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\bin\Debug\protobuf-net.dll
 C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\bin\Debug\ServiceStack.Redis.dll
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\bin\Debug\ServiceStack.Text.dll
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\bin\Debug\ServiceStack.Common.dll

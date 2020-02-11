@@ -13,15 +13,12 @@ services:
     image: redis
     networks:
       backend: {}
-    ports:
-    - target: 6379
   activity.redis.cache:
     image: redis
     networks:
       backend: {}
     ports:
-    - target: 6378
-    - target: 6379
+    - 127.0.0.1:6379:6379/tcp
   activity.services.activitywebapi:
     build:
       context: C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src

@@ -5,3 +5,4 @@ C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Proje
 C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Data.Repository\obj\Debug\netcoreapp3.0\Activity.Data.Repository.AssemblyInfo.cs
 C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Data.Repository\obj\Debug\netcoreapp3.0\Activity.Data.Repository.dll
 C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Data.Repository\obj\Debug\netcoreapp3.0\Activity.Data.Repository.pdb
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Data.Repository\obj\Debug\netcoreapp3.0\Activity.Data.Repository.csprojAssemblyReference.cache
