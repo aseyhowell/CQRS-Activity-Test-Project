@@ -1,0 +1,7 @@
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Data.EntityFramework\bin\Debug\netcoreapp3.0\Activity.Data.EntityFramework.deps.json
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Data.EntityFramework\bin\Debug\netcoreapp3.0\Activity.Data.EntityFramework.dll
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Data.EntityFramework\bin\Debug\netcoreapp3.0\Activity.Data.EntityFramework.pdb
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Data.EntityFramework\obj\Debug\netcoreapp3.0\Activity.Data.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Data.EntityFramework\obj\Debug\netcoreapp3.0\Activity.Data.EntityFramework.AssemblyInfo.cs
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Data.EntityFramework\obj\Debug\netcoreapp3.0\Activity.Data.EntityFramework.dll
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Data.EntityFramework\obj\Debug\netcoreapp3.0\Activity.Data.EntityFramework.pdb

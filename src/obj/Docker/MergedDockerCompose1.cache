@@ -1,0 +1,65 @@
+networks:
+  backend: {}
+  frontend: {}
+services:
+  activity.eventstore:
+    image: eventstore/eventstore
+    networks:
+      backend: {}
+    ports:
+    - 127.0.0.1:1113:1113/tcp
+    - 127.0.0.1:2113:2113/tcp
+  activity.redis.broker:
+    image: redis
+    networks:
+      backend: {}
+    ports:
+    - target: 6379
+  activity.redis.cache:
+    image: redis
+    networks:
+      backend: {}
+    ports:
+    - target: 6378
+    - target: 6379
+  activity.services.activitywebapi:
+    build:
+      context: C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src
+      dockerfile: Activity.Services.ActivityWebApi/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Activity.Services.ActivityWebApi
+      target: base
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44337'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: activityservicesactivitywebapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "bin/Debug/netcoreapp3.0/Activity.Services.ActivityWebApi.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      backend: {}
+      frontend: {}
+    ports:
+    - published: 51147
+      target: 80
+    - published: 44337
+      target: 443
+    tty: true
+    volumes:
+    - C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Services.ActivityWebApi:/app:rw
+    - C:\Users\a.seymour-howell\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\a.seymour-howell\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\a.seymour-howell\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\a.seymour-howell\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src:/src:rw
+version: '3.4'

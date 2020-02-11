@@ -1,0 +1,7 @@
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Model\bin\Debug\netcoreapp3.0\Activity.Model.deps.json
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Model\bin\Debug\netcoreapp3.0\Activity.Model.dll
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Model\bin\Debug\netcoreapp3.0\Activity.Model.pdb
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Model\obj\Debug\netcoreapp3.0\Activity.Model.AssemblyInfoInputs.cache
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Model\obj\Debug\netcoreapp3.0\Activity.Model.AssemblyInfo.cs
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Model\obj\Debug\netcoreapp3.0\Activity.Model.dll
+C:\Users\a.seymour-howell\OneDrive - Traceone\Documents\CQRS-Activity-Test-Project\src\Activity.Model\obj\Debug\netcoreapp3.0\Activity.Model.pdb

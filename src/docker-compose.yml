@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  activity.services.activitywebapi:
+    image: ${DOCKER_REGISTRY-}activityservicesactivitywebapi
+    build:
+      context: .
+      dockerfile: Activity.Services.ActivityWebApi/Dockerfile
+    networks:
+      - frontend
+      - backend
+ 
+  activity.redis.cache:
+    image: redis
+    ports:
+      ["6379", "6378"]
+    networks:
+      - backend
+ 
+  activity.redis.broker:
+    image: redis
+    ports:
+      ["6379"]
+    networks:
+      - backend
+  activity.eventstore:
+    image: eventstore/eventstore
+    ports:
+      ["127.0.0.1:2113:2113","127.0.0.1:1113:1113"]    
+    networks:
+      - backend
+networks:
+  frontend:
+  backend:
+
